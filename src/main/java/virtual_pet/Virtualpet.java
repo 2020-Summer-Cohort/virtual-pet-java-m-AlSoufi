@@ -21,6 +21,18 @@ public class Virtualpet {
     public void feeding(){
 
     }
+    public void watering(){
+
+    }
+    public void goForaWalk(){
+
+    }
+    public void playing(){
+
+    }
+    public void takeToDoctor(){
+
+    }
 
     public int getHunger() {
         return hunger;
