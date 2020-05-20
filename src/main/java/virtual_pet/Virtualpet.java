@@ -34,6 +34,15 @@ public class Virtualpet {
 
     }
 
+    public void tick(){
+        moreHunger;
+        moreThirst;
+        moreWaste;
+        moreBoredom;
+        moreSick;
+
+    }
+
     public int getHunger() {
         return hunger;
     }
