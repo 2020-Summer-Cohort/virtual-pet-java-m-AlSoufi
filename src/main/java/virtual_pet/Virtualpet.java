@@ -19,18 +19,23 @@ public class Virtualpet {
     }
 
     public void feeding(){
+        System.out.println(hunger - 10);
 
     }
     public void watering(){
+        System.out.println(thirst -10);
 
     }
     public void goForaWalk(){
+        System.out.println(waste -10);
 
     }
     public void playing(){
+        System.out.println(boredom - 10);
 
     }
     public void takeToDoctor(){
+        System.out.println(sickness -10);
 
     }
 
