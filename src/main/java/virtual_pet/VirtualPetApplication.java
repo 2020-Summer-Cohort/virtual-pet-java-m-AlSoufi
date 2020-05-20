@@ -22,7 +22,7 @@ public class VirtualPetApplication {
             System.out.println("Boredom: " + joey.getBoredom());
             System.out.println("Sickness: " + joey.getSickness());
             System.out.println(" ");
-            System.out.println("What would like to do?");
+            System.out.println("What would you like to do?");
             System.out.println("Press 1 to feed Joey.");
             System.out.println("Press 2 to give water to Joey.");
             System.out.println("Press 3 to take Joey for a walk to relieve his bio needs.");
@@ -49,11 +49,11 @@ public class VirtualPetApplication {
             } else if (userChoice == 4) {
                 System.out.println("You just played with Joey.");
                 System.out.println("Joey's current boredom level is:");
-                joey.goForaWalk();
+                joey.playing();
             } else if (userChoice == 5) {
                 System.out.println("You just took Joey to the doctor.");
                 System.out.println("Joey's current sickness level is:");
-                joey.goForaWalk();
+                joey.takeToDoctor();
             } else if (userChoice == 6) {
                 break;
             }
