@@ -46,20 +46,15 @@ public class VirtualPetApplication {
                 System.out.println("You just took Joey out for a walk.");
                 System.out.println("Joey's current bio needs level is:");
                 joey.goForaWalk();
-            }
-            else if (userChoice == 4) {
+            } else if (userChoice == 4) {
                 System.out.println("You just played with Joey.");
                 System.out.println("Joey's current boredom level is:");
                 joey.goForaWalk();
-            }
-            else if (userChoice == 5) {
+            } else if (userChoice == 5) {
                 System.out.println("You just took Joey to the doctor.");
                 System.out.println("Joey's current sickness level is:");
                 joey.goForaWalk();
-            }
-
-
-            else if (userChoice == 6) {
+            } else if (userChoice == 6) {
                 break;
             }
             joey.tick();
