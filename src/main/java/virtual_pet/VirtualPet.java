@@ -2,7 +2,6 @@ package virtual_pet;
 
 public class VirtualPet {
 
-    private String name;
     private int hunger;
     private int thirst;
     private int waste;
@@ -10,7 +9,7 @@ public class VirtualPet {
     private int sickness;
 
     public VirtualPet(String name, int hunger, int thirst, int waste, int boredom, int sickness) {
-        this.name = name;
+
         this.hunger = hunger;
         this.thirst = thirst;
         this.waste = waste;
@@ -19,36 +18,36 @@ public class VirtualPet {
     }
 
     public void feeding() {
-        System.out.println(hunger -= 10);
+        System.out.println(hunger -= 35);
 
     }
 
     public void watering() {
-        System.out.println(thirst -= 10);
+        System.out.println(thirst -= 35);
 
     }
 
     public void goForaWalk() {
-        System.out.println(waste -= 10);
+        System.out.println(waste -= 45);
 
     }
 
     public void playing() {
-        System.out.println(boredom -= 10);
+        System.out.println(boredom -= 15);
 
     }
 
     public void takeToDoctor() {
-        System.out.println(sickness -= 10);
+        System.out.println(sickness -= 25);
 
     }
 
     public void tick() {
-        hunger++;
-        thirst++;
-        waste++;
-        boredom++;
-        sickness++;
+        hunger += 5;
+        thirst += 5;
+        waste += 5;
+        boredom += 5;
+        sickness += 5;
     }
 
 
